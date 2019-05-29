@@ -1,7 +1,5 @@
 Flask
 gunicorn
-re
-uuid
 dialogflow_v2veta1
 dialogflow
 google-cloud-storage
