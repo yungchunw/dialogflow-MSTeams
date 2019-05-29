@@ -42,7 +42,7 @@ app = Flask(__name__)
 @app.route("/" , methods=['POST'])
 def hello():
     data = json.loads(request.get_data())
-    text = re.sub('<at>.*</at>\s','',data['text'])
+    text = re.sub('\<at\>.*\</at\>','',data['text'])
     print (text)
     response = chat_bot(text)
     t =jsonify( {"type": "message",
