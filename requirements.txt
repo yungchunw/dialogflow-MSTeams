@@ -1,5 +1,4 @@
-Flask
+Flask==1.0.2
+dialogflow==0.6.0
+google==2.0.2
 gunicorn
-dialogflow
-google-cloud-storage
-google
